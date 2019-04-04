@@ -1,5 +1,6 @@
 // MAIN-NET CONTRACT ADDRESS
-var mainNetAddress = '0x273930d21e01ee25e4c219b63259d214872220a2';
+var mainNetAddress = '0xee783754fd5812aee50b19492c916e32b1916c27';
+//var mainNetAddress = '0x273930d21e01ee25e4c219b63259d214872220a2';
 var testNetAddress = '0x1d649ca03d1bcd84877482c1dd8d3f9a7398728f'; // morden testnet
 
 walletInterface = [
@@ -260,7 +261,8 @@ contractVersions = [
     original:
       '8207780d6fb31803373aff97360562231187ebb0da6b4678eeb68ceb16897509',
     stub: '',
-    address: '0x273930d21e01ee25e4c219b63259d214872220a2'
+    // address: '0x273930d21e01ee25e4c219b63259d214872220a2'
+    address: '0xee783754fd5812aee50b19492c916e32b1916c27'
   }
 ];
 

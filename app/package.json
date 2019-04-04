@@ -8,8 +8,11 @@
     "core-js": "^2.5.7"
   },
   "devDependencies": {
+    "electron": "2.0.10",
+    "electron-builder": "20.28.4",
     "husky": "^0.14.3",
     "meteor-build-client": "^0.4.1",
+    "meteor-desktop": "^2.0.0",
     "prettier": "^1.11.1",
     "pretty-quick": "^1.4.1"
   }

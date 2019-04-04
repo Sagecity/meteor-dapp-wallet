@@ -1,10 +1,10 @@
 <template name="views_account_create">
         <!-- we use a form, which posts into the "dapp-form-helper-iframe" iframe, so that the browser stores inout fields for native autocpmplete -->
-    <form class="container new-account" action="about:blank" target="dapp-form-helper-iframe" autocomplete="on">
+    <form class="container new-account" action="about:blank" target="dapp-form-helper-iframe" autocomplete="off">
             
         <h1>{{{i18n 'wallet.newWallet.title'}}}</h1>
 
-        <input type="text" name="accountName" value="{{name}}" placeholder="{{i18n 'wallet.newWallet.accountName'}}" autofocus="true">
+        <input type="text" name="accountName" value="{{name}}" placeholder="{{i18n 'wallet.newWallet.accountName'}}" autofocus="false">
 
         <h2>{{i18n 'wallet.newWallet.selectOwner'}}</h2>
 

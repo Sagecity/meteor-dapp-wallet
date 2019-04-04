@@ -35,7 +35,7 @@ updateBalances = function() {
           if (account.creationBlock) {
             Wallets.update(account._id, {
               $set: {
-                balance: res.toString(10)
+                balance: 'res.toString(10)'
               }
             });
           } else {

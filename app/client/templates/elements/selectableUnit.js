@@ -18,37 +18,13 @@ The available units
 */
 selectableUnits = [
   {
-    text: 'ETHER',
-    value: 'ether'
-  },
-  {
-    text: 'FINNEY', //(µΞ)
-    value: 'finney'
-  },
-  {
-    text: 'BTC',
-    value: 'btc'
-  },
-  {
-    text: 'USD',
-    value: 'usd'
-  },
-  {
-    text: 'EUR',
-    value: 'eur'
-  },
-  {
-    text: 'GBP',
-    value: 'gbp'
-  },
-  {
-    text: 'BRL',
-    value: 'brl'
+    text: 'SAGE',
+    value: 'sage'
   }
 ];
 
 // Aprils fool
-if (moment().format('MM-DD') == '04-01') {
+/*if (moment().format('MM-DD') == '04-01') {
   selectableUnits.push(
     { text: 'SZABO', value: 'szabo' },
     { text: 'SHANNON', value: 'shannon' },
@@ -67,7 +43,7 @@ if (moment().format('MM-DD') == '04-01') {
   // Charles's Birthday
 } else if (moment().format('MM-DD') == '12-26') {
   selectableUnits.push({ text: 'BABBAGE', value: 'babbage' });
-}
+}*/
 
 Template['elements_selectableUnit'].helpers({
   /**
